@@ -1,0 +1,66 @@
+.contact{
+    background-color: #f9fafb;
+    padding: 20px 35px;
+}
+
+.contact h1{
+    text-align: center;
+}
+
+.reachUs{
+    align-items: center;
+}
+
+.ContactField{
+    color: white;
+    outline: none;
+    width: 400px;
+    height: 32px;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 0 7px;
+    border: none;
+    background-color: rgb(35,41,55);
+}
+
+textarea{
+    color: white;
+    background-color: rgb(35,41,55);
+    outline: none;
+    width: 400px;
+    height: 70px;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 0 7px;
+}
+
+.plc::placeholder{
+    color: white !important;
+}
+
+.plc:focus{
+    outline: 1px solid red;
+}
+
+.contact button{
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    padding:  7px 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.socialIcons{
+    color: black;
+}
+
+@media (max-width:767.98px) {
+    .ContactField{
+        width: 100%;
+    }
+    textarea{
+        width: 100%;
+    }
+}

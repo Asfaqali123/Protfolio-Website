@@ -1,0 +1,23 @@
+.project{
+    padding: 20px 35px;
+}
+
+.project h1{
+   text-align: center; 
+}
+
+.projectscard{
+    display: grid;
+    grid-template-columns: auto auto auto;
+ }
+
+@media ((max-width:767.98px)) {
+    .project{
+        padding: 20px 15px;
+    }
+
+    .projectscard{
+        display: grid;
+        grid-template-columns:  auto;
+    }
+}

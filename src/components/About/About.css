@@ -1,0 +1,19 @@
+.para{
+    margin: 0 35px;
+}
+
+.skillSection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    margin: 20px 0 ;
+}
+
+@media (max-width:767.98px){
+    .para{
+        margin: 0 15px;
+    }
+    .skillSection{
+        justify-content: center;
+    }
+}

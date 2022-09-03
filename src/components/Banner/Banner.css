@@ -1,0 +1,76 @@
+.banner{
+    background: url('../../assets/bannerImage.png');
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 35px;
+}
+
+.banner1{
+    width: 50%;
+}
+
+.banner1 .title{
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.banner2 {
+    width: 50%;
+}
+
+.banner2 img{
+    width: 100%;
+    height: 100%;
+}
+
+p{
+    font-size: 20px;
+}
+
+.socialIcons{
+    cursor: pointer;
+    margin: 15px 15px 0 0;
+}
+
+.socialIcons , .gitSocialIcons:hover{
+    color: black;
+}
+
+.socialIcons , .linkSocialIcons:hover{
+    color: blue;
+}
+
+.socialIcons , .instaSocialIcons:hover{
+    color:  #3f729b;
+}
+
+.socialIcons , .tweeSocialIcons:hover{
+    color: blue;
+}
+
+.resumeButton{
+    cursor: pointer;
+    margin-top: 20px;
+    width: 175px;
+    height: 40px;
+    color: white;
+    background-color:blue;
+    border: none;
+    border-radius: 7px;
+}
+
+@media (max-width:767.98px){
+    .banner1 .title{
+        font-size: 36px;
+    }
+    .banner{
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+    }
+    .banner1 , .banner2{
+        width: 100%;
+    }
+}

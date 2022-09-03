@@ -1,0 +1,24 @@
+.services{
+    padding: 20px 35px;
+    background-color: #f9fafb;
+}
+
+.services h1{
+    text-align: center;
+}
+
+.serviceCard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (max-width:767.98px){
+    .serviceCard{
+        width: 100%;
+        height: auto;
+    }
+    .services{
+        padding: 20px 15px;
+    }
+}
