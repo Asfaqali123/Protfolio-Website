@@ -3,7 +3,7 @@ import React from 'react'
 import './common.css'
 const Skillcard = ({title,image}) => {
   return (
-    <div className='skillCard'>
+    <div className='skillCard'  data-aos="fade-up">
         <img src={image}/>
         <p>{title}</p>
     </div>
@@ -12,4 +12,4 @@ const Skillcard = ({title,image}) => {
 
 
 
-export default Skillcard
+export default Skillcard;

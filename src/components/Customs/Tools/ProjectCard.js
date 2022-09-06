@@ -3,7 +3,7 @@ import React from 'react'
 
 const ProjectCard = ({title,image,desc,}) => {
   return (
-    <div className='projectCardscontain'>
+    <div className='projectCardscontain' data-aos="fade-up">
       <div className='Projectimage'>
         <img src={image} alt={title}></img>
       </div>
