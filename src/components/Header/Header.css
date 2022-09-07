@@ -32,6 +32,11 @@
     display: none;
 }
 
+.activeButton{
+    background-color: blue;
+    color: white;
+}
+
 @media (max-width:767.98px){
      .menuList{
         display: flex; 

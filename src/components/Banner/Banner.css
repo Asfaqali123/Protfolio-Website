@@ -61,6 +61,13 @@ p{
     border-radius: 7px;
 }
 
+.popupWord{
+    font-size: 60px;
+    font-weight: bolder;
+    color: blue;
+}
+
+
 @media (max-width:767.98px){
     .banner1 .title{
         font-size: 36px;

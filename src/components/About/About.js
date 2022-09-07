@@ -62,9 +62,10 @@ const Skills = [
   }
 ]
 
-const About = () => { 
+const About = ({aboutRef}) => { 
+  
   return (
-    <div>
+    <div ref={aboutRef} id="about_me">
       <div className='para'>
         <TitleCard title='About me'/>
         <p>

@@ -1,15 +1,27 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {GitHub , LinkedIn, Instagram, Twitter} from '@mui/icons-material';
-import TypewriterComponent from 'typewriter-effect';
+import Typewriter from 'typewriter-effect';
  
 import './Banner.css';
 
 const Banner = () => {
+
   return (
     <div className ='banner'>
       <div className='banner1'>
         <p className='title'>Hi, I am Asfaq</p>
-        <p className='title'>Front End Developer</p>
+        <p className='popupWord'>
+          <Typewriter  options={{
+            autoStart:true,
+            loop:true,
+            delay:40,
+            strings:[
+              'I am Web Developer',
+              'I am FullStack Developer',
+            ]
+
+          }}/>
+        </p>
         <p >I am a Front-End / Full-Stack Developer.</p>
         <div className='socialIcons'>
           <GitHub fontSize='large' className='gitSocialIcons'/>
