@@ -4,13 +4,13 @@ import Typewriter from 'typewriter-effect';
  
 import './Banner.css';
 
-const Banner = () => {
+const Banner = ({homeRef}) => {
 
   return (
-    <div className ='banner'>
+    <div className ='banner' ref={homeRef} id="bannerPage">
       <div className='banner1'>
         <p className='title'>Hi, I am Asfaq</p>
-        <p className='popupWord'>
+        <span className='popupWord'>
           <Typewriter  options={{
             autoStart:true,
             loop:true,
@@ -21,7 +21,7 @@ const Banner = () => {
             ]
 
           }}/>
-        </p>
+        </span>
         <p >I am a Front-End / Full-Stack Developer.</p>
         <div className='socialIcons'>
           <GitHub fontSize='large' className='gitSocialIcons'/>

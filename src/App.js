@@ -19,7 +19,20 @@ function App() {
     AOS.refresh();
   }, []);
 
+  const homeRef = useRef(null);
   const aboutRef = useRef(null);
+  const serviceRef = useRef(null);
+  const projectRef = useRef(null);
+  const contactRef = useRef(null);
+
+  const homeScroll = () =>{
+    setActiveNav(homeRef.current.id);
+    window.scrollTo({
+      top: homeRef.current.offsetTop,
+      left: 0,
+      behavior: "smooth",
+    });
+  }
 
   const aboutScroll = () =>{
     setActiveNav(aboutRef.current.id);
@@ -30,14 +43,42 @@ function App() {
     });
   }
 
+  const serviceScroll = () =>{
+    setActiveNav(serviceRef.current.id);
+    window.scrollTo({
+      top: serviceRef.current.offsetTop,
+      left: 0,
+      behavior: "smooth",
+    });
+  }
+
+  const projectScroll = () =>{
+    setActiveNav(projectRef.current.id);
+    window.scrollTo({
+      top: projectRef.current.offsetTop,
+      left: 0,
+      behavior: "smooth",
+    });
+  }
+
+  const contactScroll = () =>{
+    setActiveNav(contactRef.current.id);
+    window.scrollTo({
+      top: contactRef.current.offsetTop,
+      left: 0,
+      behavior: "smooth",
+    });
+  }
+
+
   return (
     <div className="App">
-     <Header aboutScroll={aboutScroll} activeNav={activeNav}/>
-     <Banner />
+     <Header  activeNav={activeNav} homeScroll={homeScroll} aboutScroll={aboutScroll} serviceScroll={serviceScroll} projectScroll={projectScroll} contactScroll={contactScroll}/>
+     <Banner homeRef={homeRef}/>
      <About aboutRef={aboutRef}/>
-     <Service />
-     <Project />
-     <Contact />
+     <Service serviceRef={serviceRef}/>
+     <Project projectRef={projectRef}/>
+     <Contact contactRef={contactRef}/>
      <Footer />
     </div>
   ); 

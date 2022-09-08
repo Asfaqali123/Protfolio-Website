@@ -42,9 +42,10 @@ const projects = [
   }
 ]
 
-const Project = () => {
+const Project = ({projectRef}) => {
   return (
-    <div className='project'>
+    <div className='project' ref={projectRef} id="projectPage">
+      <h1>Projects</h1>
       <TitleCard title="What I Build" /> 
         <div className='projectscard'>
         {projects.map((cards) => (

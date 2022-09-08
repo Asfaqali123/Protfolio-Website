@@ -5,9 +5,9 @@ import {GitHub , LinkedIn, Instagram, Twitter} from '@mui/icons-material'
 
 import './Contact.css'
 
-const Contact = () => {
+const Contact = ({contactRef}) => {
   return (
-    <div className='contact'>
+    <div className='contact' ref={contactRef} id="contactPage">
         <h1>Contact</h1>  
         <div className='formCard'>
         <TitleCard title="Connect with me" />

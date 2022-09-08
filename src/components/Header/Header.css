@@ -1,3 +1,9 @@
+#homePage{
+    position: sticky;
+    top: 0;
+    z-index: 10 ;
+}
+
 .header{
     display: flex;
     justify-content: space-between;
@@ -5,9 +11,6 @@
     padding: 15px 35px;
     box-shadow: 0 10px 15px -3pxrgb(0 0 0 / 0.1), 0 4px 6px -4pxrgb(0 0 0 / 0.1);
     background-color: white;
-    position: sticky;
-    top: 0;
-    z-index: 10 ;
 }
 
  .menuList{

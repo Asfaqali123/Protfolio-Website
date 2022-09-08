@@ -25,9 +25,9 @@ const service = [
   }
 ]
 
-const Service = () => {
+const Service = ({serviceRef}) => {
   return (
-    <div className='services'>
+    <div className='services' ref={serviceRef} id="servicePage">
         <h1>Service</h1>
         <TitleCard title="What I Provide"/>
         <div className='serviceCard'>

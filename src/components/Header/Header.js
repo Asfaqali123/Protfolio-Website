@@ -5,23 +5,24 @@ import "./Header.css";
 
 
 
-const Header = ({aboutScroll,activeNav}) => {
+const Header = ({activeNav,homeScroll,aboutScroll,serviceScroll,projectScroll,contactScroll}) => {
   const [toggle, setToggle] = useState(false);
 
   const handleToggle = () => setToggle(!toggle);
-
   return (
+    <div id="homePage">
     <header className='header'>
       <Menu className='menuBar' onClick={handleToggle}/>
         <h3>Asfaq Ali</h3>
         <ul className={`menuList ${toggle ? '' :'hidden'}`} tabIndex="1">
-            <li className={activeNav === "home" ? 'activeButton':''}>Home</li>
+            <li onClick={homeScroll}  className={activeNav === "bannerPage" ? 'activeButton':''}>Home</li>
             <li onClick={aboutScroll} className={activeNav === "about_me" ? 'activeButton':''}>About me</li>
-            <li>Services</li>
-            <li>Projects</li>
-            <li>Contact</li>
+            <li onClick={serviceScroll}  className={activeNav === "servicePage" ? 'activeButton':''}>Services</li>
+            <li onClick={projectScroll}  className={activeNav === "projectPage" ? 'activeButton':''}>Projects</li>
+            <li onClick={contactScroll}  className={activeNav === "contactPage" ? 'activeButton':''}>Contact</li>
         </ul>
     </header>
+    </div>
   )
 }
 
