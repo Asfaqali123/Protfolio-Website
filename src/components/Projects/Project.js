@@ -7,39 +7,27 @@ import './Project.css'
 const projects = [
   {
     id:1,
-    name:"GitHub",
-    url:"https://play-lh.googleusercontent.com/PCpXdqvUWfCW1mXhH1Y_98yBpgsWxuTSTofy3NGMo9yBTATDyzVkqU580bfSln50bFU",
-    discription:"about git hub",
-    redirectUrl:"https://moonlit-creponne-3d9c0c.netlify.app/"
-  },
+    name:"Countries ApI",
+    url:"https://149695847.v2.pressablecdn.com/wp-content/uploads/2020/01/top-10-DS-projects.png" ,
+    discription:"Countries API which can Perform depending upon user input it implement by Using javascript.",
+    redirectUrl:"https://nimble-quokka-8a77a8.netlify.app"
+  },  
+
   {
     id:2,
     name:"PokemonApi",
-    url:"https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/1200px-International_Pok%C3%A9mon_logo.svg.png",
-    discription:"about PokemonApi",
-    redirectUrl:"https://moonlit-creponne-3d9c0c.netlify.app/"
-  },
-  {
-    id:3,
-    name:"flipkartClone",
-    url:"https://media.glassdoor.com/sqll/300494/flipkart-com-squarelogo-1433217726546.png",
-    discription:"about flipkart",
-    redirectUrl:"https://moonlit-creponne-3d9c0c.netlify.app/"
+    url:"https://149695847.v2.pressablecdn.com/wp-content/uploads/2020/01/top-10-DS-projects.png",
+    discription:"The Pokedex API provides data about each of the 50 Pokemon, including moves, type, and weakness. Each type of query produces output in plain text or JSON format .",
+    redirectUrl:"https://scintillating-belekoy-ed2328.netlify.app"
   },
   {
     id:4,
-    name:"Cardslide",
-    url:"https://cc-prod.scene7.com/is/image/CCProdAuthor/design-carousels-sliders_00?$pjpeg$&jpegSize=300&wid=1440",
-    discription:"about User Card slider",
-    redirectUrl:"https://moonlit-creponne-3d9c0c.netlify.app/"
-  },
-  {
-    id:5,
-    name:"loaderimage",
-    url:"https://cc-prod.scene7.com/is/image/CCProdAuthor/design-carousels-sliders_00?$pjpeg$&jpegSize=300&wid=1440",
-    discription:"about Loader image",
-    redirectUrl:"https://moonlit-creponne-3d9c0c.netlify.app/"
+    name:"Calculator",
+    url:"https://149695847.v2.pressablecdn.com/wp-content/uploads/2020/01/top-10-DS-projects.png",
+    discription:"Create a simple calculator which can perform basic arithmetic operations it may depending upon the user input. Note that we are using to implement this project using the Javascript language. ",
+    redirectUrl:""
   }
+  
 ]
 
 const Project = ({projectRef}) => {

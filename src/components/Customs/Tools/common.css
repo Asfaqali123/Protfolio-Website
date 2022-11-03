@@ -48,7 +48,13 @@
     
 }
 
+.projecturl{
+    color: white;
+    text-decoration: none;
+}
+
 .projectCardscontain{
+    width: auto;
     margin: 35px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     border-radius: 25px;
@@ -56,16 +62,17 @@
  
 .Projectimage img{  
     width: 100%;
-    height: 400px;
+    height: auto;
     border-radius: 25px 25px 0 0;
 }
 
-.ProjectDetail{
-    background-color: rgb(31, 41, 55);
-    color: white;
+
+ .ProjectDetail{
+    background-color: white;
+    color: black;
     padding: 20px;
     border-radius: 0 0 25px 25px;
-}
+} 
 
 .ProjectDetail button{
     display: flex;
@@ -77,7 +84,26 @@
     background-color: blue;
     border-radius: 5px;
     padding: 10px;
-}
+} 
+
+.ProjectDetail{
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 0 0 25px 25px;
+} 
+
+.ProjectDetail button{
+    display: flex;
+    align-items: center;
+    border: none;
+    margin-top: 15px;
+    color: white;
+    font-size: 18px;
+    background-color: blue;
+    border-radius: 5px;
+    padding: 10px;
+} 
 
 .ProjectDetail button span{
     margin-right: 5px;
@@ -90,6 +116,7 @@
 
     .Projectimage img {
         height: 200px;
+        width: auto;
     }
     .serviceCardcontain{
         padding: 20px 15px;

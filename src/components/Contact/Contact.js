@@ -25,18 +25,18 @@ const Contact = ({contactRef}) => {
         </div>
             <div className='reachUs'>
             <h2>Email</h2>
-            <a href='mailto:https://mail.google.com/mail/u/0/#inbox?compose=new' target="_blank">asfaqali586@gmail.com</a>
+            <a href='mailto:https://mail.google.com/mail/u/0/#inbox?compose=new'>asfaqali586@gmail.com</a>
             <h2>Social</h2>
-            <a href="https://github.com/" target="_blank">
+            <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
             <GitHub fontSize='large' className='socialIcons'/>
             </a>
-            <a href='www.linkedin.com/in/asfak-ali-56662b1a3' target="_blank">
+            <a href='www.linkedin.com/in/asfak-ali-56662b1a3' target="_blank" rel="noopener noreferrer">
             <LinkedIn fontSize='large' className='socialIcons'/>
             </a>
-            <a href='https://www.instagram.com/asfaqali_azu/' target="_blank">
+            <a href='https://www.instagram.com/asfaqali_azu/' target="_blank" rel="noopener noreferrer">
             <Instagram fontSize='large' className='socialIcons'/>
             </a>
-            <a href='https://twitter.com/Asfaqal07999420' target="_blank">
+            <a href='https://twitter.com/Asfaqal07999420' target="_blank" rel="noopener noreferrer">
             <Twitter fontSize='large' className='socialIcons'/>
             </a>
             </div>

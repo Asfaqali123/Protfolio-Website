@@ -59,7 +59,8 @@ const Skills = [
       id:11,
       name:"Git",
       url:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg"
-  }
+  },
+  
 ]
 
 const About = ({aboutRef}) => { 

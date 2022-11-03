@@ -26,38 +26,29 @@
 }
 
 p{
+    margin-top: 10px;
     font-size: 20px;
 }
 
-.socialIcons{
-    cursor: pointer;
-    margin: 15px 15px 0 0;
-}
-
-.socialIcons , .gitSocialIcons:hover{
+.socialIcon{
     color: black;
+    margin: 10px 0 0;
 }
 
-.socialIcons , .linkSocialIcons:hover{
-    color: blue;
-}
-
-.socialIcons , .instaSocialIcons:hover{
-    color:  #3f729b;
-}
-
-.socialIcons , .tweeSocialIcons:hover{
-    color: blue;
+.socialIcon a {
+    color: black;
+    margin-right: 10px;
 }
 
 .resumeButton{
-    cursor: pointer;
-    margin-top: 20px;
-    width: 175px;
+    font-size: 15px;
+    width: 100px;
     height: 40px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
     color: white;
     background-color:blue;
-    border: none;
     border-radius: 7px;
 }
 
